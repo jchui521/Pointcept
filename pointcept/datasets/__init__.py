@@ -22,3 +22,6 @@ from .shapenet_part import ShapeNetPartDataset
 
 # dataloader
 from .dataloader import MultiDatasetDataloader
+
+# my dataset
+from .my_dataset import MyDataset   

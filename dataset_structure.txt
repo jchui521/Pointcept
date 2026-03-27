@@ -1,0 +1,13 @@
+ data/
+  └── your_dataset/
+      ├── train/
+      │   ├── scene_001/
+      │   │   ├── coord.npy       # (N, 3) float32 — XYZ coordinates (required)
+      │   │   ├── color.npy       # (N, 3) float32 — RGB, 0–255 range
+      │   │   ├── normal.npy      # (N, 3) float32 — surface normals
+      │   │   └── segment.npy     # (N,)   int32   — class labels (required for semseg)
+      │   └── scene_002/
+      │       └── ...
+      └── val/
+          └── scene_003/
+              └── ...
